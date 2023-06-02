@@ -1,0 +1,39 @@
+body {
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 290px;
+    height: 290px;
+    border-radius: inherit;
+}
+
+p {
+    color: gray;
+}
+
+.card {
+    width: 310px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.qr-code {
+    padding-top: 10px;
+    border-radius: 6px;
+}
+.card-body {
+    width: 290px;
+}
